@@ -1,0 +1,270 @@
+﻿body {
+/*    background-color:#FAFBF0;*/
+    font-family:Verdana;
+}
+
+table 
+{
+    width:100%;
+/*    background-color:#F0F2E3;*/
+    font-size:10px;
+    font-weight:normal;
+    font-family:Verdana;
+    color:#153868;
+    /*text-align:center;    */
+    }
+
+/************************/
+
+.boton_mod_clases {
+		    border:1px #C8D9E8 solid;
+		    color:#FFFFFF;
+		    background-color:#0080C5;
+		    font-family:verdana;
+		    font-size:10px;
+		    text-transform:capitalize;
+		    cursor:hand;
+		    z-index:200;		    
+		}
+		
+.boton2 {
+		    border:1px #C8D9E8 solid;
+		    color:#C8D9E8;
+		    background-color:#0080C5;
+		    font-family:verdana;
+		    font-size:10px;
+		    text-transform:capitalize;
+		    cursor:hand;
+		    z-index:200;	
+		    margin-top:20px;	    
+		}
+		
+.titulo {}
+
+	
+/*  ENCABEZADO  */    
+.cuatrimestre 
+{
+    border-top:solid 1px #87B12E;
+    border-bottom:solid 1px #B7DA6D;    
+    text-align:right;
+    padding:2px;
+    font-weight:normal;
+    z-index:200;
+    }    
+
+. cuatrimestre_destacado    
+{
+    background-color:#E0E4C5;
+    text-align:left;
+    padding:4px;
+    padding-left:10px;    
+    z-index:200;
+    }    
+    
+.tblencabezado 
+{
+    background-color:#9DCC37;
+    padding-top:5px;
+    padding-bottom:2px;    
+    font-weight:bold;
+    font-size:11px;
+    border-top: solid 1px #607E21;
+    border-bottom: solid 1px #607E21;    
+    text-align:left;
+    z-index:200;    
+    }    
+    
+/*   INFO */    
+.tblinfo 
+{
+    background-color: #54A2BC;
+    border-top: solid 1px #CDD3A0;
+    font-size:10px;
+    font-weight:normal;
+    font-family:Verdana;
+    color:#8A9445;
+    z-index:200;
+    clear:both;    
+    }    
+    
+.celdasinfo 
+{
+    background-color:#E0E4C5;
+    text-align:right;
+    border: none;
+    color:#005482;
+    padding:2px;    
+    z-index:200;    
+    }
+    
+.celdasinfo_destacado
+{
+    font-size:9px;
+    font-weight:bold;
+    background-color:#EFEFDE;
+    text-align:left;
+    border: none;
+    color: #153868;
+    padding:1px;
+    padding-left:10px;
+    z-index:0;    
+    }  
+    
+ /*   DATOS CURSADA HORIZONTAL  */    
+ 
+.tblcursada 
+ {
+    background-color:#54A2BC;
+    padding:1px;
+    z-index:200;    
+    }
+ 
+   .cursada 
+{
+    background-color:#0080C5;
+    color:#C8D9E8;
+    border: solid 1px #0074B3;
+    border-right: solid 1px #008FDD;    
+    border-top: solid 1px #008FDD;        
+    font-size:10px;
+    font-weight:bold;
+    font-family:Verdana;
+    text-align:center;
+    z-index:200;    
+   }  
+   
+/*  TABLA DESPLEGANDO    */
+
+.desplegable 
+{
+    width:30px;
+    background-color:#54A2BC;
+    padding:5px;
+    border: solid 1px #0080C5;
+    border-right: solid 1px #68ADC4;    
+    border-top: solid 1px #68ADC4;    
+    z-index:200;      
+    }
+    
+.cursada_desplegada 
+{
+    background-color:Gray;
+    border-bottom: solid 1px red;
+    width:100%;
+    padding:10px;
+    z-index:200;    
+    }
+
+.cursada_celdas 
+{
+    max-width:100%;
+    width:100%;
+    text-align:center;    
+    margin:auto;
+    margin-top:10px;
+/*    border: solid 1px #54A2BC;            */
+    /*background-color:#EFF1E0;*/
+    font-size:10px;
+    font-family:Verdana;
+    font-weight:normal;
+    color:#153868;        
+    z-index:999;
+    height:auto;
+    clear:both;      
+    z-index:200;
+    padding-left:5%;
+    padding-right:5%;   
+    }    
+    
+.celda_cursada_desplegada 
+{
+    background-color:#F4F5EB;
+    border: solid 1px #E0E4C5;
+    padding:2px;
+    width:100%;       
+    z-index:999;     
+    }    
+    
+.encabezado_cursada_desplegada 
+{
+    background-color:#C8D9E8;
+    border: solid 1px #54A2BC;
+    color: #153868;
+    letter-spacing:0.2em;
+    z-index:200;    
+    }    
+        
+.botonimprimir
+{
+    background-color:red;
+    border: solid 1px blue;
+    padding:5px;
+    z-index:200;    
+    }    
+ 
+ 
+.colbtndesplegable 
+{
+    width:20px;
+    z-index:200;
+    text-align:center;
+    }
+           
+.detalles 
+{
+    padding-left:10px;
+    font-weight:bold;
+    font-family:Verdana;
+    text-align:left;
+    z-index:200;    
+    background-color:#0080C5;
+    }        
+
+.tbl_detalles 
+{
+    width:100%;
+    background-color:#54A2BC;
+    font-size:10px;
+    font-weight:normal;
+    font-family:Verdana;
+    color:#153868;
+    text-align:center;
+    border:mone;
+    }
+  
+.tr_ancho 
+    {
+    width:100%;
+    background-color:Aqua; 
+    border: solid 10px red;
+    z-index:999;
+    z-index:200;
+        }    
+        
+.celda_info 
+{
+    background-color:#E4ECF3;
+    padding:2px;
+    margin:2px;
+    border: solid 1px #C8D9E8;
+    color:#153868;
+    }        
+    
+.warningsinclases 
+{
+	font-weight:bold;
+	color:#ff0000;
+	letter-spacing:0.1em;
+	margin:20px;
+	padding:20px;
+	text-align:center;
+	}    
+	
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  z-index: 99999;
+}

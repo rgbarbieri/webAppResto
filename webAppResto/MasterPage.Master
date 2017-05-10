@@ -1,0 +1,50 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="webAppResto.MasterPage" %>
+<%@ Register Src="Controles/menuNavegacion.ascx" TagName="menuDer" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <table>
+    <tr>
+    <td colspan="2">
+    <form id="form1" runat="server">
+    
+      <asp:ContentPlaceHolder ID="ContentPlaceHolderTop" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+             <div align="center"> <asp:Image ID="banner" runat="server" ImageAlign="Middle" ImageUrl="~/imagenes/Banner.jpg" 
+                Height="135px" Width="717px" /></div>
+        
+    <asp:Table ID="tblTop" runat="server"> 
+        
+   </asp:Table>
+   <br />
+        
+       <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+       
+       </asp:ContentPlaceHolder>
+       
+    <br />
+    <div align="center"><asp:Table ID="tblMensaje" runat="server"> 
+        
+   </asp:Table></div>
+<div align="center" id="footer"><em><b> http://www.linkedin.com/in/rubenbarbieri</b></em></div>
+    </form>
+    
+    </td>
+        <td> <uc1:menuDer ID="tblMenuDer1" runat="server"/>  
+        </td>
+    </tr>
+</table>    
+</body>
+
+
+</html>
